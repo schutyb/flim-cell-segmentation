@@ -4,3 +4,18 @@ echo "*.pyc" >> .gitignore
 echo "data/" >> .gitignore
 echo "outputs/" >> .gitignore
 echo ".DS_Store" >> .gitignore
+
+echo ".ipynb_checkpoints/" >> .gitignore
+echo ".pytest_cache/" >> .gitignore
+echo ".mypy_cache/" >> .gitignore
+echo ".ruff_cache/" >> .gitignore
+echo ".coverage" >> .gitignore
+echo "coverage.xml" >> .gitignore
+echo "*.log" >> .gitignore
+echo "*.tmp" >> .gitignore
+echo ".vscode/" >> .gitignore
+echo ".idea/" >> .gitignore
+
+echo "*.tif" >> .gitignore
+echo "*.tiff" >> .gitignore
+
