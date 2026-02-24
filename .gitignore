@@ -1,21 +1,37 @@
-echo ".venv/" >> .gitignore
-echo "__pycache__/" >> .gitignore
-echo "*.pyc" >> .gitignore
-echo "data/" >> .gitignore
-echo "outputs/" >> .gitignore
-echo ".DS_Store" >> .gitignore
+# Virtual environments
+.venv/
+venv/
+env/
 
-echo ".ipynb_checkpoints/" >> .gitignore
-echo ".pytest_cache/" >> .gitignore
-echo ".mypy_cache/" >> .gitignore
-echo ".ruff_cache/" >> .gitignore
-echo ".coverage" >> .gitignore
-echo "coverage.xml" >> .gitignore
-echo "*.log" >> .gitignore
-echo "*.tmp" >> .gitignore
-echo ".vscode/" >> .gitignore
-echo ".idea/" >> .gitignore
+# Python
+__pycache__/
+*.pyc
 
-echo "*.tif" >> .gitignore
-echo "*.tiff" >> .gitignore
+# Data folders
+data/
+outputs/
 
+# OS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing / lint
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# Logs / temp
+*.log
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+
+# Large image files
+*.tif
+*.tiff
